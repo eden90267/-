@@ -1,0 +1,198 @@
+div,form,h1,h2,h3,h4,h5,h6,li,p,ul {
+    margin: 0;
+    padding: 0;
+}
+
+html,body {
+    font-size: 18px;
+    font-weight: 300;
+    font-family: "Noto Sans TC", sans-serif;
+    background: url(../img/pattern.jpg) center center;
+}
+
+h1 {
+    font-weight: 300;
+    margin-top: 80px;
+    font-size: 120%;
+    letter-spacing: 6px;
+}
+
+h2 {
+    font-size: 200%;
+    letter-spacing: 4px;
+    font-weight: 400;
+}
+
+h1:after {
+    display: block;
+    background-color: #e03d44;
+    content: "";
+    height: 2px;
+    width: 50px;
+    margin-top: 15px;
+}
+
+h3 {
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+h3:after {
+    height: 2px;
+    background-color: #e03d44;
+    content: "";
+    width: 40px;
+    margin-top: 18px;
+    display: block;
+}
+
+.text-box {
+    color: #fff;
+    position: absolute;
+    transform: translate(10%, 110%);
+}
+
+.btn:link {
+    margin-top: 20px;
+    font-weight: 100;
+    border-radius: 8px;
+    transition: background-color 0.4s;
+}
+
+.btn-full:link, .btn-full:visited {
+    background-color: #e03d44;
+    color: #fff;
+}
+
+.btn-full:hover {
+    background-color: rgba(224, 61, 68, 0.9);
+}
+
+
+
+/*--HEADER--*/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.4)), url(img/Restaurant_resized.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/*--about-us--*/
+
+.about-us {
+    height: 35vh;
+}
+
+.title-row {
+    margin-top: 40px;
+    text-align: center;
+}
+
+.title {
+    margin-top: 20px;
+}
+
+.dividerCenter {
+    height: 2px;
+    width: 40px;
+    background-color: #e03d44;
+    margin: 15px auto;
+}
+
+p {
+    font-size: 16px;
+    line-height: 1.9;
+}
+
+
+/*--menu--*/
+
+.menu {
+    height: 465px;
+}
+
+.boxImage {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/breakfast.jpg);
+    height: 465px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.boxImage2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/LUNCH.jpg);
+    height: 465px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.boxImage3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(img/drink.jpg);
+    height: 465px;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.imageBoxesTitle {
+    position: absolute;
+    bottom: 40px;
+    padding: 24px;
+}
+
+.imageBoxesTitle span {
+    font-size: 24px;
+    color: #fff
+}
+
+.divder {
+    width: 40px;
+    height: 2px;
+    background-color: #e03d44;
+    margin-top: 6px;
+}
+
+.bgBlack {
+    background-color: rgba(42,43,47,1);
+    width: 100%;
+    height: 465px;
+}
+
+.wall-sticker {
+    padding:  80px 40px;
+}
+
+.bgBlack p, .bgBlack h3{
+    color: #fff;
+}
+
+.lead {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.ctaBtns {
+    margin-top: 20px;
+}
+
+.button {
+    line-height: 1;
+    padding: 12px 12px;
+    letter-spacing: 2px;
+    font-size: 14px;
+    background-color: rgba(255,255,255,1);
+    color: rgba(42,43,47,1);
+    border-radius: 8px;
+}
+
+.button:hover {
+    text-decoration: none;
+    color: rgba(239,36,106);
+    transition: 0.4s;
+}
+
+.noPadding {
+    padding: 0;
+}
