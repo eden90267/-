@@ -463,3 +463,27 @@ p {
 .footernav {
     float: right;
 }
+
+
+.navbar-toggler {
+	float: right;
+}
+
+
+/*animated*/
+
+.js--wp-1,
+.js--wp-2,
+.js--wp-3,
+.js--wp-4,
+.js--wp-5,
+.js--wp-6 {
+	opacity: 0;
+	animation-duration: 1s;
+}
+
+.js--wp-4.animated,
+.js--wp-5.animated,
+.js--wp-6.animated {
+	opacity: 1;
+}
