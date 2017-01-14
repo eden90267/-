@@ -46,6 +46,20 @@ h3:after {
     display: block;
 }
 
+h4 {
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+
+h4:after {
+    display: block;
+    height: 2px;
+    background-color: #e03d44;
+    content: "";
+    width: 40px;
+    margin-top: 18px;
+}
+
 .row {
     margin: 0 auto;
 }
@@ -82,6 +96,38 @@ header {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+
+/*--main nav--*/
+
+.logo {
+    margin-top: 12px;
+}
+
+.navbg {
+    background-color: rgba(42,43,47,1);
+}
+
+.navbar-nav {
+    margin-top: 5px;
+    font-weight: 200;
+    float: right;
+    line-height: 60px;
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+}
+
+.navbar-nav li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.navbar-nav li a:hover {
+    color: #e03d44;
+    transition: 0.4s;
 }
 
 
@@ -259,4 +305,161 @@ p {
 
 .meal-photo img:hover {
     opacity: 1;
+}
+
+/*--testimonial--*/
+
+.testimonialimg {
+    background: url(img/lucho-9_resized.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.bgwhite-testimonial {
+    background-color: #fff;
+    height: 100vh;
+}
+
+.mario-img {
+    width: 70px;
+    border-radius: 60%;
+}
+
+.mario-img:hover {
+    transform: scale(0.95);
+    transition: 0.4s;
+}
+
+.tetimonmeta {
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
+}
+
+.tetimonmeta span {
+    display: block;
+    font-weight: 400;
+    color: rgba(42,43,47,0.7);
+    font-size: 12px;
+}
+
+.tetimoncontent p:before,
+.tetimoncontent p:after {
+    content: '"';
+}
+
+.tetimoncontent p {
+    padding-top: 80px;
+}
+
+.box {
+    margin-top: 55px;
+}
+
+
+/*--contact--*/
+
+.messenger {
+    margin: 50px;
+}
+
+.bgcolor {
+    height: 480px;
+    background-color: #E44424;
+}
+
+.bgcolor h3,
+.bgcolor p {
+    color: rgba(255,255,255,1);
+}
+
+.bgcolor h3:after {
+    background-color: #fff;
+}
+
+.bgwhite {
+    height: 480px;
+    background-color: rgba(255,255,255,1);
+}
+
+.mail:hover {
+    color: rgba(224,66,19,0.91);
+}
+
+
+.map {
+    width: 106%;
+    height: 480px;
+    margin-left: -13px;
+}
+
+
+/*--footer--*/
+
+.footerbg {
+    background-color: rgba(42,43,47,0.96);
+    color: rgba(255,255,255,0.8);
+}
+
+.social-links {
+    margin-top: 4px;
+    font-size: 15px;
+}
+
+.social-links li {
+    display: block;
+    margin-top: 10px
+}
+
+.social-links li a {
+    text-decoration: none;
+    color: rgba(255,255,255,0.8);
+}
+
+.ion-social-facebook,
+.ion-social-twitter,
+.ion-social-googleplus,
+.ion-social-instagram {
+    margin: 8px;
+    transition: color 0.4s;
+}
+
+.ion-social-facebook:hover {
+    color: #3b5998;
+}
+
+.ion-social-twitter:hover {
+    color: #55acee;
+}
+
+.ion-social-googleplus:hover {
+    color: #dd4b39;
+}
+
+.ion-social-instagram:hover {
+    color: #125688;
+}
+
+.icon-box {
+    display: inline-block;
+    width: 15px;
+    text-align: center;
+}
+
+.copyrights {
+    background-color: rgb(38, 39, 46);
+}
+
+.copyrights a,
+.copyrights p {
+    margin: 0 10px;
+    line-height: 50px;
+    font-size: 14px;
+    text-decoration: none;
+    color: rgba(255,255,255,4);
+}
+
+.footernav {
+    float: right;
 }
